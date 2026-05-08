@@ -1,0 +1,36 @@
+body{
+  background-color: #FFF0BE;
+}
+
+.header{
+  background-color: #FF9A86;
+  padding: 15px 20px 0px 20px;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: #FFF0BE;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.menu ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 20px;
+  font-size: large;
+}
+
+.menu a {
+  color: #FFF0BE;
+  text-decoration: none;
+}
+
+.menu a:hover {
+  color: #FFB399;
+}
+
+
