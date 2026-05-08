@@ -1,6 +1,6 @@
-body{
+/* body{
   background-color: #FFF0BE;
-}
+} */
 
 .header{
   background-color: #FF9A86;
@@ -33,4 +33,25 @@ body{
   color: #FFB399;
 }
 
+.kolom{
+    background: #FFF0BE;
+    padding-top: 20px;
+}
 
+.kolom:hover{
+    background:#FFD6A6;
+}
+
+.footer{
+  text-align: center;
+    background-color: #FFB399;
+    padding-top: 5px;
+    padding-right: 20px;
+    padding-bottom: 5px;
+    padding-left: 70px;
+}
+
+.footer a{
+  color: #FFF0BE;
+  text-decoration: none;
+}
